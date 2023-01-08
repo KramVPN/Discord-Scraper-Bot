@@ -6,8 +6,8 @@ import sys
 client = discord.Client()
 
 
-guild_id = Server ID goes here  #int(input("Server id: "))     #Server ID 
-bot_token = "Bot Token Goes Here"                   #Secret token of the bot
+guild_id = 960818230698573844  #int(input("Server id: "))     #Server ID 
+bot_token = "OTIzOTAxMjg0OTYzMjIxNTA0.GKmKAi.CQNyrHrRAM8u5W93QX8z7vFO2ic92d6gsf-U4Y"                   #Secret token of the bot
 chunk_size = 65536                  #Message history will be split into chunks of this size. Make sure chunks are big enough or weird stuff can happen
 
 
@@ -66,4 +66,4 @@ async def on_ready():
     print("Download complete!")
     await client.close()
 print("Starting...") 
-client.run("Bot Token Goes Here")
+client.run("OTIzOTAxMjg0OTYzMjIxNTA0.GKmKAi.CQNyrHrRAM8u5W93QX8z7vFO2ic92d6gsf-U4Y")
